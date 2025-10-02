@@ -1,0 +1,333 @@
+.Inicio {
+ display: flex;         
+  justify-content: space-around; 
+  gap: 0px; 
+}
+
+.Inicio img {
+    width: 23%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.gryffindor {
+    scroll-margin-top: 150px;
+    color: rgb(184, 136, 48);
+    font-size: 75px;
+    background-color: #9b1b1b;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.infogryffindor {
+    font-size: 25px;
+    background-color: rgb(184, 136, 48);
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 35px;
+}
+
+@media (max-width: 576px) {
+  .infogryffindor{
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+ 
+#carouselgryffindor .carousel-item img {
+    height: 550px;
+    max-width: 650px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+}
+
+.contenedor {
+    display: flex;
+   
+    align-items: center;
+   
+    gap: 20px;
+   
+}
+
+.imagen {
+    width: 500px;
+    height: auto;
+    padding: 20px;
+border-radius: 35px;
+}
+
+.textoo {
+    max-width: 750px;
+    font-size: 35px;
+    background-color: rgb(187, 129, 21);
+    color: black;
+
+}
+
+.Slytherin {
+    font-size: 70px;
+    background-color: rgb(45, 143, 110);
+    color: rgb(194, 191, 191)
+    
+}
+
+#carouselslytherin .carousel-item img {
+    height: 550px;
+    max-width: 650px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.fondo1 {
+    background-color: #9b1b1b;
+    ;
+}
+
+
+.infoslytherin {
+    font-size: 25px;
+    background-color: rgb(107, 103, 103);
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 35px;
+}
+
+@media (max-width: 576px) {
+  .infoslytherin {
+    font-size: 14px;
+    text-align: center;
+  }
+  }
+#slytherin {
+    background-color:rgb(45, 143, 110)
+}
+
+#slytherin-contenedor {
+    display: flex;
+   
+    align-items: center;
+   
+    gap: 20px;
+   
+
+}
+
+.textoovoldemort {
+    max-width: 750px;
+    font-size: 30px;
+    background-color: rgb(107, 103, 103);
+    color: black;
+}
+
+#carouselHufflepuff .carousel-item img {
+    height: 550px;
+    max-width: 650px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.hufflepuff {
+    font-size: 70px;
+    background-color: rgb(197, 142, 23);
+    color: rgb(0, 0, 0)
+}
+
+#Hufflepuff {
+    background-color: rgb(197, 142, 23);
+}
+
+.infohufflepuff {
+    font-size: 25px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(197, 142, 23);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 35px;
+}
+@media (max-width: 576px) {
+  .infohufflepuff{
+    font-size: 14px;
+    text-align: center;
+  }
+  }
+.textoscarmander {
+    max-width: 750px;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(228, 215, 31);
+}
+
+#carouselRavenclaw .carousel-item img {
+    height: 550px;
+    max-width: 650px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.Ravenclaw {
+    font-size: 70px;
+    background-color: rgb(35, 15, 90);
+    color: rgb(155, 132, 4)
+}
+
+#Ravenclaw {
+    background-color: rgb(35, 15, 90);
+}
+
+.inforavenclaw {
+    font-size: 25px;
+    background-color: rgb(155, 132, 4);
+    color: rgb(35, 15, 90);
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 35px;
+}
+@media (max-width: 576px) {
+  .inforavenclaw{
+    font-size: 14px;
+    text-align: center;
+  }
+  }
+.textoluna {
+    max-width: 750px;
+    font-size: 30px;
+    background-color: rgb(155, 132, 4);
+    color: rgb(39, 8, 124);
+}
+
+.tiulocuento {
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+#cuento {
+    background-color:#580469cc;
+}
+
+.footer {
+    background-color: #222;
+    color: rgb(255, 255, 255);
+    padding: 100px;
+    font-size: 30px;
+}
+.navbar.nav {
+    font-size: 15px;
+    
+}
+
+.primertitulo {
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #580469cc;
+    color: black;
+    padding-top: 5px;
+}
+
+@media (max-width: 576px) {
+  /* Títulos */
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 8px;
+  }
+
+ 
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+   .carousel {
+    max-height: 470px; /* ajusta la altura máxima del carrusel */
+    overflow: hidden;  /* evita que sobresalga */
+  }
+  .carousel-item img {
+        max-height: 500px;  
+    object-fit: cover; 
+    border-radius: 8px; 
+  }
+
+  img {
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 10px;
+    max-width: 90%; 
+  }
+
+  /* Navbar  */
+  nav.navbar {
+    padding: 8px;
+    text-align: center;
+  }
+
+  /* Footer  */
+  footer {
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+  }
+}
+@media (max-width: 576px) {
+  /* Links del navbar en celulares */
+  .navbar-nav {
+    text-align: left !important;   /* alinea a la izquierda */
+  }
+
+  .navbar-nav .nav-link {
+    text-align: left !important;   /* cada link a la izquierda */
+    padding: 8px 12px;             /* menos espacio vertical */
+    font-size: 15px;               /* texto un poco más chico */
+  }
+}
+@media (max-width: 576px) {
+  /* Contenedor de personajes en columna */
+  .contenedor {
+    display: flex;
+    flex-direction: column; /* en columna en vez de fila */
+    align-items: center;    /* centra todo */
+    text-align: center;     /* texto centrado */
+    margin-bottom: 20px;
+  }
+
+  /* Imagen del personaje */
+  .contenedor .imagen {
+    max-width: 80%;   /* achica la imagen en celular */
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  /* Texto del personaje */
+  .contenedor h2 {
+    font-size: 18px;  /* más chico en celular */
+    margin-top: 5px;
+  }
+
+  .contenedor p {
+    font-size: 14px;  /* párrafos más chicos */
+    line-height: 1.4; /* más compacto */
+    padding: 0 12px;  /* márgenes internos */
+  }
+ video {
+    width: 90% !important;   
+    max-width: 320px;        /* nunca más grande que 320px */
+    height: auto;            /* mantiene proporción */
+    display: block;
+    margin: 0 auto;          /* centrado */
+  }
+  .tiulocuento {
+    font-size: 30px;
+  }
+  }
